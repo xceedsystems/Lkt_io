@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Runtime - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Release/VERSION.res" /i "..\inc" /i "..\..\inc" /d "NDEBUG" "C:\Project\VlcDriverSource\Development\Lkt_io\RUNTIME\VERSION.RC"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6E.tmp" with contents
+[
+/nologo /ML /W3 /GX /Z7 /Od /X /I "..\inc" /I "..\..\inc" /I "..\..\intime\inc" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_WIN32" /FR".\Release/" /Fp".\Release/Runtime.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"C:\Project\VlcDriverSource\Development\Lkt_io\RUNTIME\auxrut.c"
+"C:\Project\VlcDriverSource\Development\Lkt_io\RUNTIME\Card.c"
+"C:\Project\VlcDriverSource\Development\Lkt_io\RUNTIME\dmcgalil.c"
+"C:\Project\VlcDriverSource\Development\Lkt_io\RUNTIME\LKT_IO.c"
+"C:\Project\VlcDriverSource\Development\Lkt_io\RUNTIME\task.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6F.tmp" with contents
+[
+RtFlat.lib DcFlat.lib CsFlat.lib cstart32.obj rt.lib ciff3m.lib /nologo /version:21076.20052 /stack:0x100000,0x2000 /subsystem:console /incremental:no /pdb:".\Release/LKT_IO.pdb" /map:".\Release/LKT_IO.map" /debug /debugtype:both /machine:I386 /nodefaultlib /out:"\Program Files\VLC\Driver 6_X\Bin\Jobs\LKT_IO.rt3" /pdbtype:sept /libpath:"..\..\lib" /libpath:"..\..\intime\lib" /heap:0x4000000,0x4000 
+.\Release\auxrut.obj
+.\Release\Card.obj
+.\Release\dmcgalil.obj
+.\Release\LKT_IO.obj
+.\Release\task.obj
+.\Release\VERSION.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+auxrut.c
+Card.c
+dmcgalil.c
+LKT_IO.c
+task.c
+Linking...
+
+
+
+<h3>Results</h3>
+LKT_IO.rt3 - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

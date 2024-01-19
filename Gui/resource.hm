@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by FLATCODE.RC
+//
+#define HIDC_STATIC                     0x8327ffff    // IDD_DRVF_PORT_GALIL
